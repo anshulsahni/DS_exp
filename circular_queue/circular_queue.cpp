@@ -85,7 +85,7 @@ void circular_queue::display()
 int main()
 {
  circular_queue cq;
-	int ans=1,ch,val;
+	int ch,val;
 
 	while(ch)
 	{
@@ -114,7 +114,6 @@ int main()
 				cout<<"Current queue list:\t";cq.display();
 			break;
 			case 0:
-				ans=0;
 				continue;
 			default:
 				continue;
