@@ -197,6 +197,10 @@ int main()
 				list.display();
 				cout<<"\n\n";
 				break;
+			case 0:
+				break;
+			default:
+				break;
 		}
 	}
 }
